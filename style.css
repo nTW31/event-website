@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;        /* ใช้ฟอนต์ Arial หรือ sans-serif */
+    background-color: #f5f7fa;             /* สีพื้นหลังเทาอ่อน */
+    margin: 0;                             /* ตัดระยะห่างรอบนอก */
+    padding: 0;                            /* ตัดระยะห่างด้านใน */
+}
+
+h1 {
+    text-align: center;                    /* จัดข้อความหัวข้อให้อยู่กลาง */
+    margin: 20px;                           /* ระยะห่างรอบหัวข้อ */
+}
+
+table {
+    width: 90%;                            /* ความกว้างตาราง 90% ของหน้าจอ */
+    margin: auto;                          /* จัดตารางให้อยู่กลาง */
+    border-collapse: collapse;             /* รวมเส้นขอบให้เป็นเส้นเดียว */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาบางๆ ใต้ตาราง */
+}
+
+th {
+    background-color: #007bff;             /* สีพื้นหัวตาราง (น้ำเงิน) */
+    color: white;                          /* สีตัวอักษรในหัวตาราง */
+    padding: 10px;                         /* ระยะห่างภายในเซลล์ */
+    text-align: center;                    /* จัดข้อความกลางในหัวตาราง */
+}
+
+td {
+    padding: 10px;                         /* ระยะห่างภายในเซลล์ */
+    text-align: center;                    /* จัดข้อความกลางในเซลล์ */
+    background-color: white;               /* สีพื้นหลังของข้อมูล */
+    border-bottom: 1px solid #ddd;         /* เส้นขอบล่างสีเทาอ่อน */
+}
+
+tr:hover td {
+    background-color: #f1f1f1;             /* เปลี่ยนสีพื้นหลังเมื่อชี้เมาส์ */
+}
+.countdown {
+    color: red;        /* ทำให้ข้อความเป็นสีแดง */
+    font-weight: bold; /* ทำให้ตัวหนา */
+}
+
